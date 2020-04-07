@@ -12,9 +12,9 @@ layout: feed
 
 	<title>My Animerag</title>
 
-	<link href="http://jerushas2597.github.io/blog/atom.xml" rel="self"/>
+	<link href="http://myanimerag.github.io/blog/atom.xml" rel="self"/>
 
-	<link href="http://myanimerag.io/blog"/>
+	<link href="http://myanimerag.github.io/blog"/>
 
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 
@@ -36,13 +36,13 @@ layout: feed
 
 			<title>{{ post.title }}</title>
 
-			<link href="http://myanimerag.io{{ post.url }}"/>
+			<link href="http://myanimerag.github.io{{ post.url }}"/>
 
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 
 			<img src="{{ post.image }}">
 
-			<id>http://myanimerag.io{{ post.id }}</id>
+			<id>http://myanimerag.github.io{{ post.id }}</id>
 
 			<content type="html">{{ post.content | xml_escape }}</content>
 
