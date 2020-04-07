@@ -11,6 +11,10 @@ li {
   float: left;
 }
 
+li {
+ text-align: center;
+}
+
 li a.text {
   display: block;
   color: white;
