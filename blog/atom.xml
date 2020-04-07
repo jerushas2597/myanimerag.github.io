@@ -1,0 +1,55 @@
+---
+
+layout: feed
+
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+
+
+	<title>My Animerag</title>
+
+	<link href="http://jerushas2597.github.io/blog/atom.xml" rel="self"/>
+
+	<link href="http://myanimerag.io/blog"/>
+
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+
+	<id>http://myanimerag.io/blog</id>
+
+	<author>
+
+		<name>Tomoki Ken</name>
+
+		<email>tomokitimeforever@gmail.com</email>
+
+	</author>
+
+
+
+	{% for post in site.posts %}
+
+		<entry>
+
+			<title>{{ post.title }}</title>
+
+			<link href="http://myanimerag.io{{ post.url }}"/>
+
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+
+			<img src="{{ post.image }}">
+
+			<id>http://myanimerag.io{{ post.id }}</id>
+
+			<content type="html">{{ post.content | xml_escape }}</content>
+
+		</entry>
+
+	{% endfor %}
+
+
+
+</feed>
