@@ -3,13 +3,10 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6900cc;
+  background-color: red;
   top: 0;
 }
 
-li {
-  float: left;
-}
 
 li {
  text-align: center;
