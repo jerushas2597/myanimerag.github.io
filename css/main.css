@@ -1,23 +1,24 @@
- ul {
+ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: red;
+  background-color: #6900cc;
   top: 0;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  display: flex; 
 }
-
 
 li {
- text-align: center;
- display: inline-block;
-}
+  font-family: 'Merienda', cursive;
+  }
 
 li a.text {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 30px;
   text-decoration: none;
   overflow: hidden;
 }
