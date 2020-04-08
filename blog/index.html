@@ -2,7 +2,7 @@
 layout: default
 title: Tomoki ken
 ---
-	<h1>{{ page.title }}</h1>
+	
 
 	 {% for post in site.posts %}	 
 <div class="boxforlists">
@@ -16,7 +16,7 @@ title: Tomoki ken
 	
 	<ul class="posts">
 
-	  
+<h1>{{ page.title }}</h1>	  
 <div class="post">
   <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> » <span>{{ post.date | date_to_string }}</span></li>
 	<img src="{{ post.img }}">
