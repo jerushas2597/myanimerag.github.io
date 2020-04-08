@@ -4,7 +4,7 @@ title: Tomoki ken
 ---
 	<h1>{{ page.title }}</h1>
 
-	  
+	 {% for post in site.posts %}	 
 <div class="boxforlists">
 <ul class="bluedouble text">
 <li><a class="active" href="#lists">Lists</a></li>
@@ -16,7 +16,7 @@ title: Tomoki ken
 	
 	<ul class="posts">
 
-	  {% for post in site.posts %}	
+	  
 <div class="post">
   <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> » <span>{{ post.date | date_to_string }}</span></li>
 	<img src="{{ post.img }}">
