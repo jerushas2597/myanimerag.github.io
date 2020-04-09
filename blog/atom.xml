@@ -14,11 +14,11 @@ layout: feed
 
 	<link href="https://jerushas2597.github.io/myanimerag.github.io/atom.xml" rel="self"/>
 
-	<link href="https://jerushas2597.github.io/myanimerag.github.io/"/>
+	<link href="https://jerushas2597.github.io/myanimerag.github.io/blog />
 
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 
-	<id>https://jerushas2597.github.io/myanimerag.github.io/blog</id>
+	<id>https://jerushas2597.github.io/myanimerag.github.io/</id>
 
 	<author>
 
