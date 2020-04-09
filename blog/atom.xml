@@ -18,7 +18,7 @@ layout: feed
 
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 
-	<id>https://jerushas2597.github.io/myanimerag.github.io/</id>
+	<id>https://jerushas2597.github.io/myanimerag.github.io/blog</id>
 
 	<author>
 
