@@ -10,11 +10,11 @@ layout: feed
 
 
 
-	<title>My Animerag</title>
+	<title>M Animerag</title>
 
 	<link href="https://jerushas2597.github.io/myanimerag.github.io/atom.xml" rel="self"/>
 
-	<link href="https://jerushas2597.github.io/myanimerag.github.io/blog />
+	<link href="https://jerushas2597.github.io/myanimerag.github.io/ />
 
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 
